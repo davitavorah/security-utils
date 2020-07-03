@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.github.davitavorah.autoconfigure.SecurityUtilsAutoConfiguration,\
+  com.github.davitavorah.autoconfigure.configuration.KeycloakSecurityConfiguration
