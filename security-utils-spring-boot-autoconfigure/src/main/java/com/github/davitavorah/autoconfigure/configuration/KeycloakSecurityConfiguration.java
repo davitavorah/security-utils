@@ -75,7 +75,7 @@ public class KeycloakSecurityConfiguration extends KeycloakWebSecurityConfigurer
     @Bean
     public FilterRegistrationBean<KeycloakPreAuthActionsFilter> keycloakPreAuthActionsFilterRegistrationBean(
             final KeycloakPreAuthActionsFilter filter) {
-        final FilterRegistrationBean<KeycloakPreAuthActionsFilter> registrationBean = new FilterRegistrationBean(filter);
+        final FilterRegistrationBean<KeycloakPreAuthActionsFilter> registrationBean = new FilterRegistrationBean<>(filter);
         registrationBean.setEnabled(false);
         return registrationBean;
     }
